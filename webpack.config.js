@@ -18,7 +18,8 @@ module.exports = {
                 test: /\.css/,
                 exclude: /colors\.css/,
                 loader: 'css-loader!cssnext-loader'
-            }
+            },
+            { test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3)$/, loader: "file-loader" }
         ]
     },
 

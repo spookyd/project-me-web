@@ -4,20 +4,20 @@ import Router from 'react-router'
 import Header from './Header.jsx'
 import css    from '../css/base.css'
 
-let RouteHandler = Router.RouteHandler
+let RouteHandler = Router.RouteHandler;
 
 export default class Root extends React.Component {
   
   constructor(props) {
-      super(props)
-      title: props.string
+      super(props);
+      title: props.string;
   }
 
   render () {
 
     let initialProps = {
       __html: safeStringify(this.props)
-    }
+    };
 
     return (
       <html>
