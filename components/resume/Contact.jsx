@@ -4,7 +4,7 @@ import ContactText from './ContactText.jsx'
 export default class Contact extends React.Component {
     render () {
         return (
-            <div className="">
+            <div id="contact-info">
                 {this.props.contactInfo.map((info, i) =>
                     <ContactText image={info.image} link={info.link} title={info.title} key={i} />
                 )}

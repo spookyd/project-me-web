@@ -12,8 +12,8 @@ export default class EducationDetail extends React.Component {
     render() {
         return (
             <div className="details">
-                <p className="label">{this.props.certification.date}</p>
-                <h4>{this.props.certification.title}</h4>
+                <p className="caption">{this.props.certification.date}</p>
+                <h6>{this.props.certification.title}</h6>
                 <p className="link"><u>{this.props.certification.awarder}</u></p>
             </div>
         )

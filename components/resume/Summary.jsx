@@ -5,8 +5,8 @@ export default class Summary extends React.Component {
         return (
             <div id="summary" className="center">
                 <img src={this.props.image} className="round"/>
-                <h1>{this.props.name}</h1>
-                <h2>{this.props.label}</h2>
+                <h2>{this.props.name}</h2>
+                <h3>{this.props.label}</h3>
             </div>
         )
     }

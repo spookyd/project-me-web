@@ -76,7 +76,7 @@ export default class Resume extends React.Component {
     render() {
         return (
             <main className="row">
-                <section id="main-content" className="col-4">
+                <section id="main-content" className="section col-4">
                     <Summary name={this.state.name} image={this.state.image} label={this.state.label}/>
                     <Contact contactInfo={ this.state.contactInfo }/>
                     <Skills skills={this.state.skills}/>
@@ -84,7 +84,7 @@ export default class Resume extends React.Component {
                     <Certification certifications={this.state.certifications}/>
                     <Interests interests={this.state.interests}/>
                 </section>
-                <section classID="experience-content" className="col-8">
+                <section classID="experience-content" className="section col-8">
                     <Experience work={this.state.work}/>
                 </section>
             </main>

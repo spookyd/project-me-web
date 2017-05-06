@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
         return (
             <div className="contact-item row">
                 <img src={this.props.image} className="col-2"/>
-                <a href={this.props.link} className="col-10">{this.props.title}</a>
+                <a href={this.props.link} className="col-10 caption">{this.props.title}</a>
             </div>
         )
     }
