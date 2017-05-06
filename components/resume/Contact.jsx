@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
         return (
             <div className="">
                 {this.props.contactInfo.map((info, i) =>
-                    <ContactText image={info.image} link={info.link} title={info.title}  />
+                    <ContactText image={info.image} link={info.link} title={info.title} key={i} />
                 )}
             </div>
         )

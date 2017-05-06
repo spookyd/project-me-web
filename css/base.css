@@ -141,12 +141,16 @@
         color: var(--secondary-text-light);
     }
 
-    #main-content img {
+    #summary img {
         border:2px solid var(--primary-text-light);
         object-fit: cover;
         width: 120px;
         height: 120px;
     }
+}
+
+.contact-item img {
+    border: none ! important;
 }
 
 #experience-content {
