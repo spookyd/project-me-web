@@ -5,7 +5,7 @@ import CertificationDetail from './CertificationDetail.jsx';
 export default class Certifications extends React.Component {
     render() {
         return (
-            <div className="">
+            <div className="card">
                 <TitleText title="Certifications"/>
                 {
                     this.props.certifications.map((cert, i) => {

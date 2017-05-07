@@ -5,8 +5,8 @@ import EducationDetail from './EducationDetail.jsx';
 export default class Education extends React.Component {
     render() {
         return (
-            <div className="">
-                <TitleText title="Education"/>
+            <div className="card">
+                <TitleText title="Education" />
                 {
                     this.props.education.map((institution, i) => {
                         return <EducationDetail key={i} institution={institution}/>;

@@ -84,7 +84,7 @@ export default class Resume extends React.Component {
                     <Certification certifications={this.state.certifications}/>
                     <Interests interests={this.state.interests}/>
                 </section>
-                <section classID="experience-content" className="section col-8">
+                <section id="experience-content" className="section col-8">
                     <Experience work={this.state.work}/>
                 </section>
             </main>

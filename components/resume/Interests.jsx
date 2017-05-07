@@ -5,8 +5,8 @@ import Keywords from './Keywords.jsx';
 export default class Interests extends React.Component {
     render() {
         return (
-            <div className="">
-                <TitleText title="Interests"/>
+            <div className="card">
+                <TitleText title="Interests" />
                 { this.props.interests.map((interest) => {
                     var elements = [];
                     elements.push(<h6>{interest.name}</h6>);
