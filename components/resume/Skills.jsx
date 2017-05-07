@@ -5,7 +5,7 @@ import Keywords from './Keywords.jsx';
 export default class Skills extends React.Component {
     render() {
         return (
-            <div className="card">
+            <div id="skills" className="card">
                 <TitleText title="Skills" />
                 { this.props.skills.map((skill, i) => {
                     var elements = [];

@@ -58,7 +58,7 @@ export default class Resume extends React.Component {
                     return {
                         image: assetsBaseURL + profile.icon,
                         link: profile.url,
-                        title: profile.network
+                        title: ""
                     }
                 });
                 profiles.forEach((profile) => {
